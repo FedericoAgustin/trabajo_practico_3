@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Clientes</title>
+<link rel="stylesheet" href="/css/estilos.css">
+</head>
+<body>
+	<h2 class="titulo">Cargar Clientes</h2>
+	<form action="#" method="post">
+		
+		<label for="dni">DNI</label>
+		<input type="number" id="dni" name="dni" required /><br>
+		
+		<label for="nombre">Nombre</label>
+		<input type="text" id="nombre" name="nombre" required /><br>
+		
+		<label for="apellido">Apellido</label>
+		<input type="text" id="apellido" name="apellido" required /><br>
+		
+		<label for="fecha_nacimiento">Fecha de Nacimiento</label>
+		<input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required /><br>
+		
+		<label for="apellido">Género</label>
+		<select name="apellido" required>
+			<option value="M">Masculino</option>
+			<option value="F">Femenino</option>
+			<option value="X">X</option>
+		</select><br>
+		
+	    <label for="email_form">Email</label>
+	    <input type="email" id="email_form" name="email_form" required /><br> 
+	    
+	    <label for="domicilio">Domicilio</label> 
+	    <input type="text" id="domicilio" name="domicilio" required /><br>
+	    
+	    <label for="provincia">Provincia</label>
+		<select name="provincia" id="provincia" required>
+			<option value="J">Jujuy</option>
+			<option value="S">Salta</option>
+			<option value="T">Tucuman</option>
+			<option value="BS">Buenos Aires</option>
+		</select><br>
+		
+		<label for="telefono">Numero de Telefono</label><input	type="text" id="telefono" name="telefono" /><br> 
+		 
+		<label for="interes_1">Algo de Interes</label><input type="checkbox" id="interes_1" name='interes_1' /><br />
+		 
+		<label for="interes_2">Algode Interes 2</label><input type="checkbox" id="interes_2" name='interes_2' /><br />
+
+		<label for="interes_2">Sugerencias</label>
+		
+		<textarea name="textarea" rows="4" cols="50"></textarea><br />
+		
+		 <label for="contraseña">Contraseña</label>
+		 <input type="password" id="contraseña" name="contraseña" required /><br>
+
+		<label for="acepto_condiciones">Acepto los Terminos y Condiciones</label>
+		<input type="checkbox" id="acepto_condiciones"  name='acepto_condiciones' required /><br>
+
+		<button class="boton" type="submit">Enviar</button>
+	</form>
+</body>
+</html>

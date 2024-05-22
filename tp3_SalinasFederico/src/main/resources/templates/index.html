@@ -3,65 +3,64 @@
 <head>
 <meta charset="UTF-8">
 <title>Inicio</title>
+<link rel="stylesheet" href="/css/estilos.css">
 </head>
 <body>
-	<header>
+	<header id="encabezado">
 		<h1>Cátedra de Programación Visual (Analista Programador
 			Universitario).</h1>
 	</header>
-	<nav>
-		<ul>
-			<li><a
+	<nav class="menu">
+		<ul class="lista">
+			<li><a class="linkMenu1"
 				href="https://virtual.unju.edu.ar/course/view.php?id=2540">Ingrese
 					al Curso</a></li>
-			<li><a
+			<li><a class="linkMenu2"
 				href="https://virtual.unju.edu.ar/pluginfile.php/803187/mod_resource/content/1/Programacion%20Visual%202024.pdf">Programa
 					de la Materia 2024</a></li>
-			<li><a href="https://www.fi.unju.edu.ar/">Página de la
-					facultad</a></li>
+			<li><a class="linkMenu3" href="https://www.fi.unju.edu.ar/">Página
+					de la facultad</a></li>
+			<li><a class="linkMenu3" href="/formCliente">Formulario de
+					Clientes</a></li>
 		</ul>
 	</nav>
-	<main>
-		<section>
-			<h2>Breve Introducción sobre la materia</h2>
-			<p>Se parte de la presunción de que el estudiante tiene su primer
-				contacto con un IDE. Se experimenta con la creación de aplicación
-				multicapa del tipo RIA (Rich Internet Application) utilizando
-				frameworks de desarrollo usados en la industria del software
-				ponderando la automatización de las técnicas de versionamiento, el
-				trabajo en equipo y la investigación. Se recomienda que los
-				estudiantes posean un conocimiento previo de resolución de problemas
-				con algoritmos y programación. Se utiliza las nociones básicas del
-				paradigma de objetos para la programación del backend, Spring boot
-				para la gestión e integración del proyecto software (JPA, Thymelief,
-				Bootstrap)</p>
-			<h3>Profesores encargados de la materia</h3>
-			<h4>Ariel Alejandro Vega</h4>
-			<img alt="profeVega.jpg" src="/images/profeVega.jpg"
-				style="height: 200px">
-			<p>Ingeniero en Informática por la Facultad de Ingeniería de la
-				Universidad Nacional deJujuy Analista Programador Universitario por
-				la Facultad de Ingeniería de la Universidad Nacional de Jujuy
-
-				Magister en Dirección Estratégica en Ingeniería del Software por la
-				Universidad Europea del Atlántico Actualmente cursando la Maestria
-				en Docencia Universitaria por la Universidad Internacional
-				Iberoamericana - Sede México Profesor de las asignaturas Cálculo
-				Numérico de la Carreras Ing en Informática - Ing de Minas - Lic de
-				Sistemas de la Fac de Ingeniería UNJu Profesor de las asignaturas
-				Programación Visual y Programación Orientada a Objetos de la Fac de
-				Ingeniería UNju</p>
-			<h4>Gustavo Sosa</h4>
-			<img alt="profeSosa.jpg" src="/images/profeSosa.jpg"
-				style="height: 200px">
-			<h4>Carolina Apaza</h4>
-			<img alt="profeApaza.jpg" src="/images/profeApaza.jpg"
-				style="height: 200px">
-			<h4>Juan Carlos Rodriguez</h4>
-			<img alt="profeRodriguez.jpg" src="/images/profeRodriguez.jpg"
-				style="height: 200px">
-			<h4>Horarios de clases</h4>
-			<table border="1">
+	<main class="contenidoPrincipal">
+		<section class="seccion">
+			<h2 class="titulo">Breve Introducción sobre la materia</h2>
+			<p class="parrafo">Se parte de la presunción de que el estudiante
+				tiene su primer contacto con un IDE. Se experimenta con la creación
+				de aplicación multicapa del tipo RIA (Rich Internet Application)
+				utilizando frameworks de desarrollo usados en la industria del
+				software ponderando la automatización de las técnicas de
+				versionamiento, el trabajo en equipo y la investigación. Se
+				recomienda que los estudiantes posean un conocimiento previo de
+				resolución de problemas con algoritmos y programación. Se utiliza
+				las nociones básicas del paradigma de objetos para la programación
+				del backend, Spring boot para la gestión e integración del proyecto
+				software (JPA, Thymelief, Bootstrap)</p>
+			<h3 class="titulo">Profesores encargados de la materia</h3>
+			<h4 class="titulo">Ariel Alejandro Vega</h4>
+			<img class="imagen" alt="profeVega.jpg" src="/images/profeVega.jpg">
+			<p class="parrafo">Ingeniero en Informática por la Facultad de
+				Ingeniería de la Universidad Nacional deJujuy Analista Programador
+				Universitario por la Facultad de Ingeniería de la Universidad
+				Nacional de Jujuy Magister en Dirección Estratégica en Ingeniería
+				del Software por la Universidad Europea del Atlántico Actualmente
+				cursando la Maestria en Docencia Universitaria por la Universidad
+				Internacional Iberoamericana - Sede México Profesor de las
+				asignaturas Cálculo Numérico de la Carreras Ing en Informática - Ing
+				de Minas - Lic de Sistemas de la Fac de Ingeniería UNJu Profesor de
+				las asignaturas Programación Visual y Programación Orientada a
+				Objetos de la Fac de Ingeniería UNju</p>
+			<h4 class="titulo">Gustavo Sosa</h4>
+			<img class="imagen" alt="profeSosa.jpg" src="/images/profeSosa.jpg">
+			<h4 class="titulo">Carolina Apaza</h4>
+			<img class="imagen" alt="profeApaza.jpg" src="/images/profeApaza.jpg">
+			<h4 class="titulo">Juan Carlos Rodriguez</h4>
+			<img class="imagen" alt="profeRodriguez.jpg"
+				src="/images/profeRodriguez.jpg">
+			<h4 class="titulo">Horarios de clases</h4>
+			<table class="tabla">
 				<thead>
 					<tr>
 						<th></th>
@@ -70,7 +69,7 @@
 						<th>Consulta</th>
 					</tr>
 				</thead>
-				<tbody>
+				<tbody class="tablaCuerpo">
 					<tr>
 						<td>Ariel Alejandro Vega</td>
 						<td>Miércoles 14:00 a 17:00 hs</td>
@@ -100,7 +99,7 @@
 
 		</section>
 	</main>
-	<aside>
+	<aside class="aside">
 		<a href="https://virtual.unju.edu.ar/course/index.php?categoryid=42"><p>Otras
 				Materias de la carrera.</p></a>
 		<p>Bibiotecas Digitales</p>
@@ -108,14 +107,13 @@
 			<img alt="bibliodig" src="/images/bibliotecaDigital.jpg">
 		</a>
 	</aside>
-	<footer>
+	<footer class="pieDePagina">
 		<p>© 2015-2023 | UNJu Virtual - Plataforma de Educación a
 			Distancia (EaD) | Universidad Nacional de Jujuy</p>
-		<ul>
+		<ul class="lista">
 			<li><a href="https://www.unju.edu.ar/" target="blank">https://www.unju.edu.ar</a></li>
 			<li><a href="mailto:virtual@unju.edu.ar" target="blank">virtual@unju.edu.ar</a></li>
-			<li><a href="tel:0388-154708223" target="blank">0388 -
-					154708223</a></li>
+			<li><a href="tel:0388-154708223" target="blank">0388-154708223</a></li>
 		</ul>
 	</footer>
 </body>
